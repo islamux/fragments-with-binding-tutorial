@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fragmentContainerView">
+
+    <fragment
+        android:id="@+id/fragment1_layout"
+        android:name="com.islamux.fragmentswithbinding.Fragment1"
+        android:label="Fragment1"
+        tools:layout="@layout/fragment_1"
+        />
+    <fragment
+        android:id="@+id/fragment2_layout"
+        android:name="com.islamux.fragmentswithbinding.Fragment2"
+        android:label="Fragment2"
+        tools:layout="@layout/fragment_2"
+        />
+
+</navigation>
